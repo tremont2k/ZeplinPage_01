@@ -1,0 +1,147 @@
+body {
+  background-color: #fcfaf7;
+}
+#article {
+  margin-left: 64px;
+}
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 64px;
+  background-color: #0e1649;
+}
+#pagetitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 72px;
+  margin-top: 32px;
+}
+.subtext {
+  margin: 16px 685px 72px 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  letter-spacing: -1.56px;
+  text-align: left;
+  color: #1c1c1c;
+}
+#getstartedb {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+background-color:#ff9f00;
+padding: 16px 32.5px 16px 32px;
+border-radius: 12px;
+margin-top: 24px;
+margin-right: 16px;
+border: solid 2px #ff9f00;
+}
+#tutorialb {
+background-color:white;
+padding: 16px 52px 16px 52px;
+border-radius: 12px;
+margin-top: 24px;
+font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #ff9f00;
+border: solid 2px #ff9f00;
+}
+.firstpara{
+  margin-top: 72px ;
+}
+.firsttitle {
+    width: 363px;
+    height: 27px;
+    margin: 0 285px 16px 0;
+    font-family: CourierNew;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(14, 22, 73, 0.8);
+}
+.firstpara{
+    width: 648px;
+    height: 108px;
+    margin: 16px 0px 41px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .link1 {
+    background-color: #cfd0d6;
+  }
+  /* .firstsep {
+    width: 648px;
+    height: 108px;
+    margin: 40px 728px 40px 64px;
+    background-color: #e1e1e1;
+    line-height: 27px;
+  } */
+.secondpara {
+  margin-top: 40px;
+}
+.secondtitle{
+  width: 363px;
+  height: 27px;
+  font-family: CourierNew;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(14, 22, 73, 0.8);
+}
+.subtext2{
+  margin-top: 16px;
+  width: 648px;
+  height: 189px;
+  font-family: Arial, Helvetica, sans-serif 18px;
+  line-height: 1.5;
+}
+.link2{
+  color: #ff7748;
+}
+#code1 {
+  width: 648px;
+  height: 414px;
+  margin-bottom: 80px;
+}
+#list {
+  margin: 0 385px 16px 0;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1c1c1c;
+}
+#olist {
+  width: 648px;
+  margin-bottom: 16px;
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1c1c1c;
+  line-height: 1.78;
+}
+#uolist {
+  width: 632px;
+  height: 160px;
+  margin: 0px 0 40px 0;
+  line-height: 1.78;
+  font-family: Arial;
+  text-align: left;
+}
+#code2 {
+  margin-top: 40px;
+}
+#abralink{
+  width: 152px;
+  height: 32px;
+  margin: 40px 69px 58px 0px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: left;
+  color: #ff7748;
+}
+
+

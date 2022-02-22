@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./css-reset.css" />
+<link rel="stylesheet" href="./styles.css" />
+<html>
+<head>
+    <title>Zeplin page 01</title>
+</head>
+<body>
+</body>
+    <div class="logo">
+        <img src="./assets/logo.png" alt="AbraLabs.com" />
+    </div>
+    <div id="article">
+        <h1 id="pagetitle">React</h1>
+        <div class="subtext">A JavaScript library for building user interfaces</p>
+        <button id="getstartedb">GET STARTED</button>
+        <button id="tutorialb">TUTORIAL</button>
+        </div>
+        
+        <div class="firstpara">
+            <h2 class="firsttitle">Learn Once, Write Anywhere</h2>
+            <p>
+            We don’t make assumptions about the rest of your technology stack, so you
+            can develop new features in React without rewriting existing code. React
+            can render on the server using Node and power mobile apps using 
+            <a href="#" class="link1">React Native.</a>
+            </p>
+        </div>
+        <hr class="firstsep" />
+        <div class="secondpara">
+            <h2 class="secondtitle">A Simple Component</h2>
+            <p class="subtext2">
+            React components implement a <strong>render()</strong> method that takes input data and
+            returns what to display. This example uses an XML-like syntax called JSX.
+            Input data that is passed into the component can be accessed by <strong>render()</strong>
+            via <strong>this.props.</strong><br><br>
+            JSX is optional and not required to use React. Try the
+            <a href="#" class="link2">Babel REPL</a> to see the raw JavaScript code produced by the JSX compilation
+            step.
+            </p>
+            <img id="code1" src="./assets/code1.png" alt="" />
+            <!-- <hr id="secondsep" /> -->
+        </div>
+        <div class="lists">
+            <h2 id="list">Basic List Component</h2>
+            <ol id="olist">
+                <li>Usually you would render lists inside a component.</li>
+                <li>
+                We can refactor the previous example into a component that accepts an
+                array of numbers and outputs a list of elements.
+                </li>
+                <li>
+                When you run this code, you’ll be given a warning that a key should be
+                provided for list items.
+                </li>
+            </ol>
+            <uo id="uolist">
+                <li>
+                    A “key” is a special string attribute you need to include when creating
+                    lists of elements.
+                </li>
+                <li>We’ll discuss why it’s important in the next section.</li>
+                <li>
+                    Let’s assign a <strong>key</strong> to our list items inside <strong>numbers.map()</strong> and fix the
+                    missing key issue.
+                </li>
+            </uo>
+            <img id="code2" src="./assets/image p3.png" alt="" /><br />
+            <a id="abralink" href="https://www.abra-it.com/">Try it on Abra-Labs</a>
+        </div>
+    </div>
+</html>
